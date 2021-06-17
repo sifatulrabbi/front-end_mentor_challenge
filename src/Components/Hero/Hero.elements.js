@@ -28,6 +28,7 @@ export const HeroTextContainer = styled.div`
 
 export const HeroCTABtn = styled(Link)`
    margin: 50px 0;
+   margin-bottom: 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;

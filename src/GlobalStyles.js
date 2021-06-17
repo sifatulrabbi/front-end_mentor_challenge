@@ -36,7 +36,7 @@ export const Container = styled.section`
 `
 
 export const DescContainer = styled.div`
-   padding: 60px 60px;
+   padding: 70px;
    line-height: 1.8;
 
    @media screen and (max-width: 950px) {
