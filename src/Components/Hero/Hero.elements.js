@@ -4,6 +4,8 @@ import { Container } from '../../GlobalStyles'
 
 export const HeroContainer = styled(Container)`
    grid-template-columns: 1.2fr 1fr;
+   position: relative;
+   height: ${({ show }) => (show ? 'min-content' : '0')};
 
    @media screen and (max-width: 1130px) {
       grid-template-columns: 1fr;
@@ -13,6 +15,7 @@ export const HeroContainer = styled(Container)`
 `
 
 export const HeroImageContainer = styled.div`
+   position: relative;
    width: 100%;
    height: 100%;
 `
@@ -48,6 +51,7 @@ export const HeroCTABtn = styled(Link)`
 `
 
 export const SlideBtnContainer = styled.div`
+   z-index: 10;
    position: absolute;
    display: flex;
    justify-content: center;

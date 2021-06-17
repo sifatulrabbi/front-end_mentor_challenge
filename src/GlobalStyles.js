@@ -57,6 +57,7 @@ export const DescText = styled.p`
 `
 
 export const Image = styled.img`
+   margin: 0;
    width: 100%;
    height: 100%;
 `
